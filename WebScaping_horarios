@@ -1,0 +1,11 @@
+#Importamos librerías necesarias
+import requests
+from bs4 import BeautifulSoup
+import time
+import datetime as dt
+import re
+import pandas as pd
+
+class Renfedata():
+    # Constants
+    URL_BASE = 'http://data.renfe.com/api/3'
